@@ -36,7 +36,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/hotels")
+      .get("/api/hotels")
       .then((res) => {
         setHotels(res.data || []);
       })
@@ -46,7 +46,7 @@ function Home() {
       });
 
     axios
-      .get("http://localhost:8080/api/offers")
+      .get("/api/offers")
       .then((res) => {
         setOffers(res.data || []);
       })

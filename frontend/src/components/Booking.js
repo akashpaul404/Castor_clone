@@ -46,7 +46,7 @@ function Booking() {
 
   const fetchHotels = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/api/hotels");
+      const response = await axios.get("/api/hotels");
       setHotels(response.data);
     } catch (error) {
       console.error("Error fetching hotels:", error);
@@ -141,7 +141,7 @@ function Booking() {
       };
 
       await axios.post(
-        "http://localhost:8080/api/booking-inquiry",
+        "/api/booking-inquiry",
         bookingData
       );
       navigate("/thank-you");

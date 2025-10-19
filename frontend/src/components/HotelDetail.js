@@ -226,7 +226,7 @@ function HotelPage() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`http://localhost:8080/api/hotels/${slug}`);
+        const res = await axios.get(`/api/hotels/${slug}`);
         const data = res.data;
 
         setHotel(data);
@@ -251,7 +251,7 @@ function HotelPage() {
     setIsLoadingGallery(true);
     try {
       const res = await axios.get(
-        `http://localhost:8080/api/hotels/${slug}/gallery?offset=${galleryOffset}&limit=9`
+        `/api/hotels/${slug}/gallery?offset=${galleryOffset}&limit=9`
       );
       const { images, hasMore } = res.data;
       setGalleryImages((prev) => [...prev, ...images]);

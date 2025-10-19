@@ -58,7 +58,7 @@ function Contact() {
     setLoading(true);
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/contact",
+        "/api/contact",
         formData
       );
       console.log("Success:", response.data);
