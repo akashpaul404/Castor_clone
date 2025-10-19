@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: castor-clone
+    env: go
+    buildCommand: |
+      cd frontend && npm install && npm run build
+      cd ../backend
+    startCommand: cd backend && go run main.go
+    envVars:
+      - key: PORT
+        value: 8080

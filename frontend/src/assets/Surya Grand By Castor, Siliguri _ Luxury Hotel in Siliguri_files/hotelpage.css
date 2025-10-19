@@ -1,0 +1,71 @@
+.sticky-header.sticky-active{display:none;}
+.bbhr{border-bottom:2px solid #ddd;margin:-2px 0 0 0;}
+.vallery ul{white-space:nowrap; overflow:auto;display:flex;justify-content:space-between;}
+.vallery ul li{list-style:none;display:inline-block;margin:0;}
+.vallery ul li + li{border-left:1px solid rgba(255,255,255,.2);}
+.vallery ul li a{color:var(--black-color);line-height:34px;display:block;padding:0px;font-weight:400;text-transform:uppercase;padding:15px 20px 12px;border-bottom:3px solid transparent;}
+.vallery ul li a i{margin-right:5px}
+.vallery ul li a:hover{color:var(--main-color);background:rgba(255,255,255,.1);border-bottom:3px solid var(--main-color);}
+.vallery .active-list a{color:var(--main-color);background:rgba(255,255,255,.1);border-bottom:3px solid var(--main-color);}
+
+@media(max-width:1199px){
+.vallery ul li a{padding:7px 10px;}
+}
+@media(max-width:767px){
+.vallery ul{justify-content:flex-start}
+}
+.undy,.undy:hover{text-decoration:underline;transition:var(--transition);padding-bottom:4px;}
+.bb5{border:2px solid #ddd;}
+.color5must p{color:var(--main-color5);}
+.nambo{font-size:110px;opacity: .1;position: absolute;top:0;color: var(--main-color4);line-height:1}
+
+.dhangra{position:absolute;bottom:0;left:0;width:100%;padding:15px;}
+@media(min-width:992px){
+.spalshs{margin-top:-70px;}
+}
+
+.hastitle{width:100%;position:absolute;bottom:80px;z-index: 1;}
+@media(max-width:1199px){
+.hastitle{position:relative;background:#aa8453;padding-top:15px;bottom:0;}
+.header.slider .arrow{display:none!important;}
+.header.slider [data-overlay-dark]::before{display:none!important;}
+.header.header-small{min-height:auto;}
+}
+.hatab{width:100%;background:rgba(255,255,255,.2)}
+.hatab th,.hatab td{padding:8px;border:1px solid #e8e8e8;font-weight:500;color:#3b3b3b;}
+.hatab th{font-weight:600;}
+.iframeit iframe{width:100%;height:300px;}
+
+.segan{position:absolute;display:inline-block;padding:5px 10px;right:5px;bottom:5px;background:rgba(5, 33, 58, 0.7);color:var(--main-color5)}
+.segan:hover{color:#fff;}
+.kaak::before,.kaak::after{content:'';position:absolute;width:0;height:0;}
+.kaak::before{right:0;top:-20px;border-left:200px solid transparent;border-right:150px solid transparent;border-bottom:20px solid #f1eae0;}
+.kaak::after{left:0;bottom:-20px;border-left:150px solid transparent;border-right:200px solid transparent;border-top:20px solid #f1eae0;}
+
+.br3{border-left:3px solid var(--main-color2)}
+.lista li{margin:0 15px 8px 0;width:auto;text-align:center;position: relative;font-family:var(--font1);}
+.lista li .iconaaa{border-radius:50%;display:inline-block;margin:0 5px 0;width:26px;height:26px;border-radius:4px;}
+.lista li .icona::before{position: absolute;content: "";width:15px;height:15px;left:5px;top:0;background: #f8ede4;transition: all 400ms linear;pointer-events:none;}
+
+.listasmall li{display:inline-block;margin:0 8px 5px 0;width:40px;height:30px;border-radius:3px;}
+.moy-tabule table {width: 100%!important;background:rgba(255,255,255,.4);margin-bottom:15px;}
+.moy-tabule:not(.tabule2) table tr:first-child{border:1px solid rgba(0,0,0,.1);padding:4px 8px;font-weight:500;font-weight:500}
+.moy-tabule table td{border:1px solid rgba(0,0,0,.1);padding:6px 12px;}
+.moy-tabule p{margin-bottom:10px;   }
+.banner-one .zoomer{height:400px;overflow:hidden;}
+.banner-one .zoomer img{width: 100%;height:100%;object-fit:cover;object-position:center;}
+@media(max-width:575px){
+.lista li{width:29%;margin:1%;}
+}
+@media(max-width:575px){.zoomer{height:250px!important;}}
+
+.termite ul{margin:0;padding:0;margin-bottom:20px;}
+.termite ul li{padding-left:25px;position:relative;}
+.termite ul li + li{margin-top:10px;}
+.termite ul li::before{content:'\f26b';position:absolute;left:0;top:0;font-family:'bootstrap-icons';font-size:16px;color:#666;}
+.termite h3{font-size:22px;margin:25px 0 10px;}
+
+
+.hostwithus::before{content: "";position: absolute;bottom: 0;left: 0;width: 100%;height: 80%;background: linear-gradient(180deg,rgba(5, 33, 58,0) 0%,rgba(5, 33, 58, 0.7) 80%,#05213a 100%);pointer-events: none;z-index:1;}
+.hostwithus .content{position:absolute;left:0;bottom:0;}
+

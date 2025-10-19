@@ -1,0 +1,124 @@
+jQuery(function ($) {
+  "use strict";
+  document.addEventListener("click", function (e) {
+    /* Hamburger menu*/
+    if (e.target.classList.contains("hamburger-toggle")) {
+      e.target.children[0].classList.toggle("active");
+    }
+  });
+  $(window).on("scroll", function () {
+    var scroll = $(window).scrollTop();
+    if (scroll < 150) {
+      $(".sticky-header").removeClass("sticky-active");
+    } else {
+      $(".sticky-header").addClass("sticky-active");
+    }
+    if (scroll > 300) $("#backToTop").addClass("active");
+    if (scroll < 300) $("#backToTop").removeClass("active");
+  });
+
+  $("#backToTop").on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate({ scrollTop: "0" }, 1200);
+  });
+
+  $(function () {
+    var url = window.location.href;
+    var page = url.substr(url.lastIndexOf("/") + 1);
+    /* $('.navbar-nav a[href*="'+page+'"]').addClass('active');*/
+    $('.navbar-nav a[href*="' + page + '"]')
+      .closest("li")
+      .addClass("active")
+      .siblings()
+      .removeClass("active");
+    /*$('.navbar-nav a[href*="'+page+'"]').closest('li.has-sub').addClass('active').siblings().removeClass('active');*/
+  });
+
+  $(".bg-img").each(function (i, obj) {
+    var action = $(obj).attr("data-background");
+    $(obj).css("background-image", "url(" + action + ")");
+  });
+  $(".obg").each(function (i, obj) {
+    var action = $(obj).attr("data-bg");
+    $(obj).css("background-image", "url(" + action + ")");
+  });
+  $(".parsley").parsley();
+  $(".dropdown-menu").click(function (e) {
+    e.stopPropagation();
+  });
+  $(document).ready(function () {
+    $(".room-guest").change(function (e) {
+      e.preventDefault();
+      var no_of_rooms = $.trim($("#no_of_rooms").val());
+      var adults = $.trim($("#adults").val());
+      var children = $.trim($("#children").val());
+      $("#rooms_guests").val(
+        no_of_rooms + " Rooms, " + adults + " Adults, " + children + " Children"
+      );
+    });
+  });
+  $(".datepick").flatpickr({
+    dateFormat: "d M, Y",
+    minDate: "today",
+    allowInput: true,
+    disableMobile: "true",
+  });
+
+  if ($(window).width() < 576) {
+    $(".datepickrange").flatpickr({
+      minDate: "today",
+      allowInput: true,
+      disableMobile: "true",
+      mode: "range",
+      closeOnSelect: true,
+      minDate: "today",
+      showMonths: 1,
+      dateFormat: "d-M-Y",
+      plugins: [new rangePlugin({ input: "#checkout" })],
+      onClose: function (selectedDates, dateStr, instance) {
+        if (selectedDates.length == 1) {
+          instance.setDate([selectedDates[0], selectedDates[0]], true);
+        }
+      },
+    });
+  } else {
+    $(".datepickrange").flatpickr({
+      minDate: "today",
+      allowInput: true,
+      disableMobile: "true",
+      mode: "range",
+      minDate: "today",
+      closeOnSelect: true,
+      showMonths: 1,
+      enableTime: false,
+      dateFormat: "d-M-Y",
+      plugins: [new rangePlugin({ input: "#checkout" })],
+      onClose: function (selectedDates, dateStr, instance) {
+        if (selectedDates.length == 1) {
+          instance.setDate([selectedDates[0], selectedDates[0]], true);
+        }
+      },
+    });
+  }
+  new WOW().init();
+  $(document).ready(function () {
+    $(".social-toggle").click(function () {
+      $(this).toggleClass("shown");
+      $(".social-drop").slideToggle("300");
+    });
+
+    function updateClock() {
+      const now = new Date();
+      let hours = now.getHours();
+      const minutes = String(now.getMinutes()).padStart(2, "0");
+      const seconds = String(now.getSeconds()).padStart(2, "0");
+      let ampm = hours >= 12 ? "PM" : "AM";
+      hours = hours % 12;
+      hours = hours ? hours : 12;
+      const timeString = `${hours}:${minutes}:${seconds} ${ampm}`;
+      document.getElementById("thetime").textContent = timeString;
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  });
+});

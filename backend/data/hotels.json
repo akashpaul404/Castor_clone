@@ -1,0 +1,513 @@
+{
+  "terms": {
+    "content": "<p>To ensure a comfortable and seamless experience for all our guests, we kindly request you to review our standard hotel policies applicable across all Castor Retreat properties.</p><p><strong>Check-In &amp; Check-Out</strong></p><ul><li><strong>Check-In Time:</strong> 12:00 PM</li><li><strong>Check-Out Time:</strong> 11:00 AM</li><li>Early check-in or late check-out is subject to availability and may incur additional charges.</li></ul><p><strong>Booking &amp; Payments</strong></p><ul><li>Reservations are confirmed upon full/partial advance payment.</li><li>Valid government-issued photo ID is mandatory for all guests at check-in.</li><li>We accept major credit/debit cards, UPI, and net banking.</li></ul><p><strong>Cancellation &amp; Refund</strong></p><ul><li>Cancellations must be made at least 48 hours before the check-in date to avoid charges.</li><li>Peak season and group booking policies may vary. Please refer to our <strong>Cancellation Policy</strong> for full details.</li></ul><p><strong>Children &amp; Extra Bed Policy</strong></p><ul><li>Children under 5 years of age stay complimentary with parents (without extra bed).</li><li>Extra bed or mattress is available on request at applicable charges.</li></ul><p><strong>Guest Conduct</strong></p><ul><li>Guests are expected to maintain decorum and respect property rules and staff.</li><li>Smoking is strictly prohibited in non-smoking rooms and indoor public areas.</li><li>Any damage caused to hotel property will be chargeable.</li><li>Hotel reserves the right of admission for all guests.</li></ul><p><strong>Pet Policy</strong></p><ul><li>Pets are not allowed at any Castor Retreat property.</li></ul><p><strong>Visitors Policy</strong></p><ul><li>Outside guests are permitted in rooms only upon prior approval from the front desk.</li><li>All visitors must register at the reception and present valid identification.</li></ul><p><strong>The Above mentioned TERMS are NON-NEGOTIABLE.</strong></p>"
+  },
+  "hotels": [
+    {
+      "id": 1,
+      "slug": "surya-grand-by-castor-siliguri",
+      "name": "Surya Grand By Castor Siliguri",
+      "description": "Stay at Surya Grand By Castor in Siliguri for comfort, elegance, and convenience in Siliguri. Ideal for business and leisure with premium rooms and amenities.",
+      "overview": {
+        "title": "Stylish Stays in Vibrant Siliguri",
+        "description": "Discover Surya Grand By Castor, a premier hotel in Siliguri offering a seamless blend of modern luxury and warm hospitality. Whether you're here for business, transit, or a relaxing escape, our thoughtfully designed rooms, elegant dining, and versatile event spaces make every stay truly rewarding. Conveniently located near NJP Station and Bagdogra Airport, it's your perfect stop in North Bengal.",
+        "image": "/assets/hotels/1748328340-Csurya-grand-by-castor-cover.jpg",
+        "coverImage": "/assets/hotels/hotel_1_cover.jpg"
+      },
+      "rooms": [
+        {
+          "name": "Deluxe Room",
+          "slug": "deluxe-room",
+          "image": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+          "tagline": "Elegant Comfort in Siliguri",
+          "amenities": [
+            { "icon": "/assets/amenities/ac.png", "title": "AC" },
+
+            {
+              "icon": "/assets/amenities/bed.png",
+              "title": "Twin Bed"
+            },
+            {
+              "icon": "/assets/amenities/breakFast.png",
+              "title": "Breakfast"
+            },
+            {
+              "icon": "/assets/amenities/lock.png",
+              "title": "Locker"
+            },
+            {
+              "icon": "/assets/amenities/mini.png",
+              "title": "Mini Fridge"
+            }
+          ],
+          "link": "/hotels/surya-grand-by-castor-siliguri/deluxe-room"
+        },
+        {
+          "name": "Executive Room",
+          "slug": "executive-room",
+          "image": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+          "tagline": "Smart Stays in the City",
+          "amenities": [
+            { "icon": "/assets/amenities/ac.png", "title": "AC" },
+            {
+              "icon": "/assets/amenities/bed.png",
+              "title": "Twin Bed"
+            },
+            {
+              "icon": "/assets/amenities/breakFast.png",
+              "title": "Breakfast"
+            },
+            {
+              "icon": "/assets/amenities/lock.png",
+              "title": "Locker"
+            },
+            {
+              "icon": "/assets/amenities/mini.png",
+              "title": "Mini Fridge"
+            }
+          ],
+          "link": "/hotels/surya-grand-by-castor-siliguri/executive-room"
+        },
+        {
+          "name": "Twin Room",
+          "slug": "twin-room",
+          "image": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+          "tagline": "Flexible Stays for Two in Siliguri",
+          "amenities": [
+            { "icon": "/assets/amenities/ac.png", "title": "AC" },
+            {
+              "icon": "/assets/amenities/bed.png",
+              "title": "Twin Bed"
+            },
+            {
+              "icon": "/assets/amenities/breakFast.png",
+              "title": "Breakfast"
+            },
+            {
+              "icon": "/assets/amenities/lock.png",
+              "title": "Locker"
+            },
+            {
+              "icon": "/assets/amenities/mini.png",
+              "title": "Mini Fridge"
+            }
+          ],
+          "link": "/hotels/surya-grand-by-castor-siliguri/twin-room"
+        }
+      ],
+      "amenities": [
+        { "icon": "/assets/amenities/ac.png", "name": "AC" },
+        {
+          "icon": "/assets/amenities/breakFast.png",
+          "name": "Breakfast"
+        },
+        { "icon": "/assets/amenities/television.png", "name": "TV" },
+        { "icon": "/assets/amenities/wifi.png", "name": "Wi-fi" },
+        {
+          "icon": "/assets/amenities/wheelchair.png",
+          "name": "Wheel Chair"
+        },
+        {
+          "icon": "/assets/amenities/tea.png",
+          "name": "Tea / Coffee Maker"
+        },
+        {
+          "icon": "/assets/amenities/laundry-service.png",
+          "name": "Laundry (Chargable)"
+        },
+        { "icon": "/assets/amenities/bar-counter.png", "name": "Bar" },
+        {
+          "icon": "/assets/amenities/water-temperature.png",
+          "name": "24hr Hot & Cold Water"
+        },
+        { "icon": "/assets/amenities/phone-call.png", "name": "Phone" },
+        {
+          "icon": "/assets/amenities/wake-up.png",
+          "name": "Wake-up Call"
+        },
+        {
+          "icon": "/assets/amenities/trail.png",
+          "name": "Nature Walk Trail"
+        },
+        {
+          "icon": "/assets/amenities/toiletries.png",
+          "name": "Toiletries"
+        }
+      ],
+      "celebrate": [
+        {
+          "type": "restaurant",
+          "name": "Castor Restaurant",
+          "image": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+          "tagline": "Delight in Every Bite, Right in Siliguri",
+          "details": "Multicuisine | Breakfast : 07AM - 10AM, Lunch : 12PM - 04PM, Dinner : 07PM - 11PM",
+          "link": "/hotels/surya-grand-by-castor-siliguri/restaurant/castor-restaurant"
+        },
+        {
+          "type": "banquet",
+          "name": "Multifunctional Banquet Halls",
+          "image": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+          "tagline": "Sunshine, Uday, Spectrum & Sunset Hall",
+          "details": "600 People | Multicuisine",
+          "link": "/hotels/surya-grand-by-castor-siliguri/banquet/multifunctional-banquet-halls"
+        }
+      ],
+      "gallery": [
+        "https://images.pexels.com/photos/29283853/pexels-photo-29283853.jpeg",
+        "https://images.pexels.com/photos/29532549/pexels-photo-29532549.jpeg",
+        "https://images.pexels.com/photos/28999494/pexels-photo-28999494.jpeg",
+        "https://images.pexels.com/photos/1145257/pexels-photo-1145257.jpeg",
+        "https://images.pexels.com/photos/2290753/pexels-photo-2290753.jpeg",
+        "https://images.pexels.com/photos/167533/pexels-photo-167533.jpeg",
+        "https://images.pexels.com/photos/2291624/pexels-photo-2291624.jpeg",
+        "https://images.pexels.com/photos/2883047/pexels-photo-2883047.jpeg",
+        "https://images.pexels.com/photos/265947/pexels-photo-265947.jpeg"
+      ],
+      "location": {
+        "address": "Nanak Plaza, Sevoke Road - Church Road Crossing, Siliguri 734001",
+        "mapLink": "https://maps.app.goo.gl/pRXM8ouQDG69o5zb8",
+        "airportText": "Surya Grand By Castor is conveniently located just 20 minutes from Bagdogra Airport and around 15 minutes from New Jalpaiguri (NJP) Railway Station by car.",
+        "transportText": "Local taxis and app-based cabs are easily available. For added convenience, airport transfers and private vehicles can be arranged through our concierge team on prior request.",
+        "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d445.47879910597953!2d88.424294635582!3d26.717864878123482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e44100756d2ddd%3A0xd815f1ca2145d523!2sHotel%20Surya%20Grand!5e0!3m2!1sen!2sin!4v1748325345412!5m2!1sen!2sin"
+      },
+      "faqs": [
+        {
+          "question": "Where is Surya Grand By Castor located in Siliguri?",
+          "answer": "Surya Grand By Castor is located on Sevoke Road, close to NJP Railway Station and Bagdogra Airport, making it easily accessible for both business and leisure travelers."
+        },
+        {
+          "question": "What amenities are offered at the hotel?",
+          "answer": "The hotel offers well-appointed rooms, complimentary Wi-Fi, in-house dining, banquet halls, 24x7 front desk support, and secure parking."
+        },
+        {
+          "question": "Does the hotel have a restaurant or room service?",
+          "answer": "Yes, Surya Grand features a multi-cuisine restaurant with dine-in and room service options, offering both local and international dishes."
+        },
+        {
+          "question": "Is early check-in or late check-out available?",
+          "answer": "Early check-in or late check-out requests are subject to availability. Guests are advised to contact the front desk in advance for arrangements."
+        },
+        {
+          "question": "Are events and banquets hosted at Surya Grand?",
+          "answer": "Yes, the hotel has versatile banquet spaces ideal for weddings, conferences, and social gatherings with complete event support."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "surya-eco-retreat-by-castor-bagdogra",
+      "name": "Surya Eco Retreat By Castor Bagdogra",
+      "description": "Stay at Surya Eco Retreat By Castor, Bagdogra. A nature-inspired hotel near the airport with comfort, greenery, and warm hospitality.",
+      "overview": {
+        "title": "Nature Meets Comfort in Bagdogra",
+        "description": "Tucked away near Bagdogra Airport, <strong>Surya Eco Retreat By Castor</strong> offers a refreshing stay surrounded by nature and calm. Designed for leisure travelers, couples, and those in transit, this property combines eco-conscious design with Castor's signature hospitality. Whether you're arriving for a short stay or a weekend escape, you'll find warm service, clean and elegant rooms, local flavors, and a sense of serenity that lingers long after you leave.",
+        "image": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+        "coverImage": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg"
+      },
+      "rooms": [
+        {
+          "name": "Executive Room",
+          "slug": "executive-room",
+          "image": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+          "tagline": "Simple Comfort Surrounded by Nature",
+          "amenities": [
+            { "icon": "/assets/amenities/ac.png", "title": "AC" },
+            {
+              "icon": "/assets/amenities/bed.png",
+              "title": "Twin Bed"
+            },
+            {
+              "icon": "/assets/amenities/breakFast.png",
+              "title": "Breakfast"
+            },
+            {
+              "icon": "/assets/amenities/lock.png",
+              "title": "Locker"
+            },
+            {
+              "icon": "/assets/amenities/mini.png",
+              "title": "Mini Fridge"
+            }
+          ],
+          "link": "/hotels/surya-eco-retreat-by-castor-bagdogra/executive-room"
+        }
+      ],
+      "amenities": [
+        { "icon": "/assets/amenities/ac.png", "name": "AC" },
+        {
+          "icon": "/assets/amenities/breakFast.png",
+          "name": "Breakfast"
+        },
+        { "icon": "/assets/amenities/television.png", "name": "TV" },
+        { "icon": "/assets/amenities/wifi.png", "name": "Wi-fi" },
+        {
+          "icon": "/assets/amenities/wheelchair.png",
+          "name": "Wheel Chair"
+        },
+        {
+          "icon": "/assets/amenities/tea.png",
+          "name": "Tea / Coffee Maker"
+        },
+        {
+          "icon": "/assets/amenities/laundry-service.png",
+          "name": "Laundry (Chargable)"
+        },
+        { "icon": "/assets/amenities/bar-counter.png", "name": "Bar" },
+        {
+          "icon": "/assets/amenities/water-temperature.png",
+          "name": "24hr Hot & Cold Water"
+        },
+        {
+          "icon": "/assets/amenities/hairdryer.png",
+          "name": "Hair Dryer (On Request)"
+        },
+        { "icon": "/assets/amenities/phone-call.png", "name": "Phone" },
+        {
+          "icon": "/assets/amenities/heater.png",
+          "name": "Room Heater"
+        },
+        {
+          "icon": "/assets/amenities/wake-up.png",
+          "name": "Wake-up Call"
+        },
+        {
+          "icon": "/assets/amenities/trail.png",
+          "name": "Nature Walk Trail"
+        },
+        {
+          "icon": "/assets/amenities/pet-care.png",
+          "name": "Pet Friendly"
+        },
+        {
+          "icon": "/assets/amenities/toiletries.png",
+          "name": "Toiletries"
+        }
+      ],
+      "celebrate": [
+        {
+          "type": "restaurant",
+          "name": "Castor Restaurant",
+          "image": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+          "tagline": "Naturally Nourishing Flavours",
+          "details": "Multicuisine | Breakfast : 07AM - 10AM, Lunch : 12PM - 04PM, Dinner : 07PM - 11PM",
+          "link": "/hotels/surya-eco-retreat-by-castor-bagdogra/restaurant/castor-restaurant"
+        },
+        {
+          "type": "banquet",
+          "name": "Uday Hall",
+          "image": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+          "tagline": "Nature-Inspired Celebrations & Gatherings",
+          "details": "500 People | Multicuisine",
+          "link": "/hotels/surya-eco-retreat-by-castor-bagdogra/banquet/uday-hall"
+        }
+      ],
+      "gallery": [
+        "https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg",
+        "https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg",
+        "https://images.pexels.com/photos/3634741/pexels-photo-3634741.jpeg",
+        "https://images.pexels.com/photos/3754594/pexels-photo-3754594.jpeg",
+        "https://images.pexels.com/photos/189333/pexels-photo-189333.jpeg",
+        "https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg",
+        "https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg",
+        "https://images.pexels.com/photos/1755288/pexels-photo-1755288.jpeg",
+        "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg"
+      ],
+      "location": {
+        "address": "Near Bagdogra International Airport, Bagdogra 734014",
+        "mapLink": "https://maps.app.goo.gl/M4ZPj8MksVYBquem6",
+        "airportText": "Surya Eco Retreat is located just 10 minutes from Bagdogra Airport, making it a perfect stop for transit and short-stay travelers.",
+        "transportText": "Taxis and app-based cabs are easily accessible. Airport transfers and private cars can be arranged through our front desk on request.",
+        "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3564.453717565136!2d88.31039746613439!3d26.697948519384017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQxJzUzLjEiTiA4OMKwMTgnNDMuMyJF!5e0!3m2!1sen!2sin!4v1748423175900!5m2!1sen!2sin"
+      },
+      "faqs": [
+        {
+          "question": "Where is Surya Eco Retreat By Castor located?",
+          "answer": "The hotel is located in Bagdogra, just minutes away from Bagdogra Airport, offering a peaceful escape surrounded by nature."
+        },
+        {
+          "question": "What kind of stay experience does Surya Eco Retreat offer?",
+          "answer": "It offers an eco-friendly and relaxing ambiance with modern comforts, ideal for leisure travelers, transit guests, and weekend getaways."
+        },
+        {
+          "question": "Are airport transfers available?",
+          "answer": "Yes, we provide airport pickup and drop services on request. Guests are encouraged to mention this while booking."
+        },
+        {
+          "question": "Is the hotel suitable for small events or private parties?",
+          "answer": "Absolutely. Surya Eco Retreat has cozy banquet spaces and outdoor areas suitable for intimate celebrations or business gatherings."
+        },
+        {
+          "question": "What type of cuisine is served at the in-house restaurant?",
+          "answer": "The on-site restaurant offers a delightful mix of regional flavors, Indian delicacies, and international dishes in a serene dining setting."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "surya-dzongkar-residency-by-castor-gangtok",
+      "name": "Surya Dzongkar Residency By Castor Gangtok",
+      "description": "Escape to Surya Dzongkar Residency By Castor in Gangtok. Enjoy elegant rooms, local cuisine, and mountain views in a calm, contemporary setting.",
+      "overview": {
+        "title": "Hillside Comfort in the Heart of Gangtok",
+        "description": "Surya Dzongkar Residency By Castor is a refined hillside retreat located in the heart of <strong>Gangtok</strong>, offering sweeping mountain views, warm hospitality, and modern elegance. Designed for leisure seekers, families, and explorers alike, the hotel blends local charm with contemporary comfort. Whether you're waking up to the misty hills, relaxing in thoughtfully appointed rooms, or indulging in regionally inspired cuisine, every moment here is about experiencing Gangtok at its finest.",
+        "image": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+        "coverImage": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg"
+      },
+      "rooms": [
+        {
+          "name": "Executive Room",
+          "slug": "executive-room",
+          "image": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+          "tagline": "Comfort Meets Calm in Gangtok",
+          "amenities": [
+            {
+              "icon": "/assets/amenities/bed.png",
+              "title": "Twin Bed"
+            },
+            {
+              "icon": "/assets/amenities/breakFast.png",
+              "title": "Breakfast"
+            },
+            {
+              "icon": "/assets/amenities/lock.png",
+              "title": "Locker"
+            },
+            {
+              "icon": "/assets/amenities/mini.png",
+              "title": "Mini Fridge"
+            },
+            { "icon": "/assets/amenities/television.png", "title": "TV" }
+          ],
+          "link": "/hotels/surya-dzongkar-residency-by-castor-gangtok/executive-room"
+        },
+        {
+          "name": "Premium Room",
+          "slug": "premium-room",
+          "image": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+          "tagline": "Elevated Stays With a View",
+          "amenities": [
+            {
+              "icon": "/assets/amenities/bed.png",
+              "title": "Twin Bed"
+            },
+            {
+              "icon": "/assets/amenities/breakFast.png",
+              "title": "Breakfast"
+            },
+            {
+              "icon": "/assets/amenities/lock.png",
+              "title": "Locker"
+            },
+            {
+              "icon": "/assets/amenities/mini.png",
+              "title": "Mini Fridge"
+            },
+            { "icon": "/assets/amenities/television.png", "title": "TV" }
+          ],
+          "link": "/hotels/surya-dzongkar-residency-by-castor-gangtok/premium-room"
+        }
+      ],
+      "amenities": [
+        { "icon": "/assets/amenities/bed.png", "name": "Twin Bed" },
+        {
+          "icon": "/assets/amenities/breakFast.png",
+          "name": "Breakfast"
+        },
+        { "icon": "/assets/amenities/television.png", "name": "TV" },
+        { "icon": "/assets/amenities/wifi.png", "name": "Wi-fi" },
+        {
+          "icon": "/assets/amenities/wheelchair.png",
+          "name": "Wheel Chair"
+        },
+        {
+          "icon": "/assets/amenities/tea.png",
+          "name": "Tea / Coffee Maker"
+        },
+        {
+          "icon": "/assets/amenities/laundry-service.png",
+          "name": "Laundry (Chargable)"
+        },
+        { "icon": "/assets/amenities/bar-counter.png", "name": "Bar" },
+        {
+          "icon": "/assets/amenities/water-temperature.png",
+          "name": "24hr Hot & Cold Water"
+        },
+        {
+          "icon": "/assets/amenities/hairdryer.png",
+          "name": "Hair Dryer (On Request)"
+        },
+        { "icon": "/assets/amenities/phone-call.png", "name": "Phone" },
+        {
+          "icon": "/assets/amenities/heater.png",
+          "name": "Room Heater"
+        },
+        {
+          "icon": "/assets/amenities/wake-up.png",
+          "name": "Wake-up Call"
+        },
+        {
+          "icon": "/assets/amenities/toiletries.png",
+          "name": "Toiletries"
+        }
+      ],
+      "celebrate": [
+        {
+          "type": "restaurant",
+          "name": "Castor Restaurant",
+          "image": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+          "tagline": "Authentic Flavours. Elevated Views.",
+          "details": "Multicuisine | Breakfast : 07AM - 10AM, Lunch : 12PM - 04PM, Dinner : 07PM - 11PM",
+          "link": "/hotels/surya-dzongkar-residency-by-castor-gangtok/restaurant/castor-restaurant"
+        },
+        {
+          "type": "banquet",
+          "name": "Sunshine Hall",
+          "image": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+          "tagline": "Elegant Events in the Heart of Gangtok",
+          "details": "50 People | Multicuisine",
+          "link": "/hotels/surya-dzongkar-residency-by-castor-gangtok/banquet/sunshine-hall"
+        }
+      ],
+      "gallery": [
+        "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg",
+        "/https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg",
+        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+        "https://images.pexels.com/photos/1458457/pexels-photo-1458457.jpeg",
+        "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+        "https://images.pexels.com/photos/53464/sheraton-palace-hotel-lobby-architecture-san-francisco-53464.jpeg",
+        "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
+        "https://images.pexels.com/photos/774042/pexels-photo-774042.jpeg",
+        "https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg"
+      ],
+      "location": {
+        "address": "MG Marg, Gangtok, Sikkim, India 737101",
+        "mapLink": "https://maps.app.goo.gl/PfiAqiG9o3BnYA4b6",
+        "airportText": "The hotel is approximately 4.5 hours by road from Bagdogra Airport, with shared and private transport options available.",
+        "transportText": "Taxis and travel assistance can be arranged through our front desk. Sightseeing tours, car hires, and local tips are available on request.",
+        "mapEmbed": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3564.453717565136!2d88.31039746613439!3d26.697948519384017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQxJzUzLjEiTiA4OMKwMTgnNDMuMyJF!5e0!3m2!1sen!2sin!4v1748423175900!5m2!1sen!2sin"
+      },
+      "faqs": [
+        {
+          "question": "Where is Surya Dzongkar By Castor located in Gangtok?",
+          "answer": "The hotel is nestled in a scenic location in Gangtok, offering stunning views and easy access to local attractions and MG Marg."
+        },
+        {
+          "question": "What makes Surya Dzongkar unique among Gangtok hotels?",
+          "answer": "It offers a perfect blend of modern luxury, warm Sikkimese hospitality, and breathtaking mountain views, ideal for romantic getaways and leisure stays."
+        },
+        {
+          "question": "Does the hotel provide local sightseeing assistance?",
+          "answer": "Yes, our team can help arrange guided tours, day trips, and local transport to explore Gangtok and nearby destinations."
+        },
+        {
+          "question": "Are there celebration or event spaces at the hotel?",
+          "answer": "Yes, Surya Dzongkar offers indoor and outdoor venues suitable for weddings, parties, and private events in a picturesque setting."
+        },
+        {
+          "question": "What dining options are available?",
+          "answer": "Guests can enjoy a range of Sikkimese, Indian, and international cuisines at our in-house restaurant with panoramic views."
+        }
+      ]
+    }
+  ]
+}
