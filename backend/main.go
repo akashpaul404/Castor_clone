@@ -123,7 +123,6 @@ func main() {
 	r.GET("/api/hotels/:slug", getHotel)
 	r.GET("/api/hotels/:slug/gallery", getGallery)
 	r.GET("/api/offers", getOffers)
-	r.POST("/api/contact", postContact)
 	r.POST("/api/booking-inquiry", createBookingInquiry)
 	r.POST("/api/contact", submitContactInquiry)
 
