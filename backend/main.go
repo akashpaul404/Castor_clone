@@ -28,7 +28,7 @@ type Room struct {
 }
 
 type CelebrateItem struct {
-	Type    string `json:"type"` 
+	Type    string `json:"type"`
 	Name    string `json:"name"`
 	Image   string `json:"image"`
 	Tagline string `json:"tagline"`
@@ -127,7 +127,8 @@ func main() {
 	r.POST("/api/contact", submitContactInquiry)
 
 	// Serve static files
-	r.Static("/assets", "./assets")
+	// r.Static("/assets", "./assets")
+	r.Static("/assets", "./static/assets")
 	r.Static("/static", "./static/static")
 
 	// Serve main React assets
@@ -137,6 +138,7 @@ func main() {
 	r.StaticFile("/logo192.png", "./static/logo192.png")
 	r.StaticFile("/logo512.png", "./static/logo512.png")
 	r.StaticFile("/robots.txt", "./static/robots.txt")
+	r.Static("/assets", "./static/assets")
 
 	// Catch-all for React Router
 	r.NoRoute(func(c *gin.Context) {
@@ -236,7 +238,7 @@ func getGallery(c *gin.Context) {
 func getOffers(c *gin.Context) {
 	data, err := os.ReadFile("data/offers.json")
 	if err != nil {
-		
+
 		c.JSON(200, []interface{}{})
 		return
 	}
@@ -255,7 +257,6 @@ func postContact(c *gin.Context) {
 		return
 	}
 
-	
 	log.Printf("Contact form submission: %+v", contact)
 
 	c.JSON(200, gin.H{"message": "Thank you for your message. We'll get back to you soon!"})
@@ -271,23 +272,20 @@ func createBookingInquiry(c *gin.Context) {
 
 	log.Printf("INFO: Received booking data: %+v", booking)
 
-	
 	booking.SubmittedAt = time.Now().Format(time.RFC3339)
 
-	
 	if _, err := os.Stat("data"); os.IsNotExist(err) {
 		log.Println("INFO: Creating data directory...")
 		os.Mkdir("data", 0755)
 	}
 
-	
 	var bookings []BookingInquiry
 	filePath := "data/booking_inquiry.json"
 
 	file, err := os.ReadFile(filePath)
 	if err != nil {
 		log.Printf("WARNING: Could not read existing file (might not exist): %v", err)
-		
+
 		bookings = []BookingInquiry{}
 	} else {
 		if err := json.Unmarshal(file, &bookings); err != nil {
@@ -297,7 +295,6 @@ func createBookingInquiry(c *gin.Context) {
 		log.Printf("INFO: Found %d existing bookings", len(bookings))
 	}
 
-	
 	bookings = append(bookings, booking)
 	log.Printf("INFO: Total bookings after append: %d", len(bookings))
 
