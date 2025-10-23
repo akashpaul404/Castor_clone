@@ -118,7 +118,17 @@ func main() {
 		AllowCredentials: true,
 	}))
 
-	// API Endpoints
+
+	r.Static("/assets", "./static/assets")
+	r.Static("/static", "./static/static")
+
+	r.StaticFile("/favicon.ico", "./static/favicon.ico")
+	r.StaticFile("/manifest.json", "./static/manifest.json")
+	r.StaticFile("/logo192.png", "./static/logo192.png")
+	r.StaticFile("/logo512.png", "./static/logo512.png")
+	r.StaticFile("/robots.txt", "./static/robots.txt")
+
+
 	r.GET("/api/hotels", getHotels)
 	r.GET("/api/hotels/:slug", getHotel)
 	r.GET("/api/hotels/:slug/gallery", getGallery)
@@ -126,19 +136,10 @@ func main() {
 	r.POST("/api/booking-inquiry", createBookingInquiry)
 	r.POST("/api/contact", submitContactInquiry)
 
-	// Serve static files
-	r.Static("/assets", "./static/assets")
-	r.Static("/static", "./static/static")
-
-	// Serve main React assets
+	
 	r.StaticFile("/", "./static/index.html")
-	r.StaticFile("/favicon.ico", "./static/favicon.ico")
-	r.StaticFile("/manifest.json", "./static/manifest.json")
-	r.StaticFile("/logo192.png", "./static/logo192.png")
-	r.StaticFile("/logo512.png", "./static/logo512.png")
-	r.StaticFile("/robots.txt", "./static/robots.txt")
 
-	// Catch-all for React Router
+
 	r.NoRoute(func(c *gin.Context) {
 		c.File("./static/index.html")
 	})
