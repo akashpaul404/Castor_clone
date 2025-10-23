@@ -127,7 +127,6 @@ func main() {
 	r.POST("/api/contact", submitContactInquiry)
 
 	// Serve static files
-	// r.Static("/assets", "./assets")
 	r.Static("/assets", "./static/assets")
 	r.Static("/static", "./static/static")
 
