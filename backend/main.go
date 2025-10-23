@@ -111,7 +111,7 @@ func main() {
 
 	// CORS
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:3000"},
+		AllowOrigins:     []string{"http://localhost:3000", "https://castor-clone.onrender.com"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
@@ -137,7 +137,6 @@ func main() {
 	r.StaticFile("/logo192.png", "./static/logo192.png")
 	r.StaticFile("/logo512.png", "./static/logo512.png")
 	r.StaticFile("/robots.txt", "./static/robots.txt")
-	r.Static("/assets", "./static/assets")
 
 	// Catch-all for React Router
 	r.NoRoute(func(c *gin.Context) {
